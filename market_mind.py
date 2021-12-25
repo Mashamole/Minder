@@ -15,5 +15,5 @@ subm = list(api.search_submissions(after=start_epoch,
                                    ))
 for sub in subm:
     print(sub.title)
-
+    print(sub.url)
 
